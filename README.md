@@ -17,5 +17,5 @@ $ crontab -e
 And paste the following job:
 
 ```
-* * * * * /usr/bin/python3 /home/thurau/code/cost-project/upload.py >> /home/thurau/code/cost-project/logs/upload.logfile 2>&1
+* * * * * <PYTHON INSTALLATION>  $HOME/octoprint-stats-scraper/upload.py >> $HOME/octoprint-stats-scraper/logs/upload.logfile 2>&1
 ```
