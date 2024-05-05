@@ -34,7 +34,7 @@ def extract_events_from_file(filename):
     # Iterate over the events
     for event_id, print_event in data["events"].items():
         if print_event["event_type"] == "PRINT_DONE":
-            print_events.append(event["data"])
+            print_events.append(print_event["data"])
     return print_events
 
 
